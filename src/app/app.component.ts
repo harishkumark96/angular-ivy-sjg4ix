@@ -18,4 +18,6 @@ export class AppComponent {
 
   date = new Date();
   personName = 'harish';
+  faren: Number = 100;
+  celcius: Number = 37;
 }
