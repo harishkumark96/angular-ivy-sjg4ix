@@ -1,0 +1,18 @@
+p {
+  font-family: Lato;
+}
+.toggle-style {
+  background-color: yellow;
+}
+div {
+  background-color: greenyellow;
+}
+.div2 {
+  background-color: brown;
+}
+.li-text {
+  background-color: rgb(255, 145, 0);
+}
+.li-text2 {
+  background-color: rgb(225, 0, 255);
+}

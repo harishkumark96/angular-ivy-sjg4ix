@@ -1,0 +1,28 @@
+<hello name="{{ name }}"></hello>
+<div appFirstDirective>Start editing to see some magic happen :)</div>
+<div appRenderer>
+  <h1>hi how are you</h1>
+</div>
+<div>
+  <ul *ngFor="let person of person; index as i">
+    <li
+      [ngClass]="{
+        'li-text': person.name === 'harish1',
+        'li-text2': person.name === 'harish2'
+      }"
+    >
+      {{ person.name }}
+    </li>
+  </ul>
+</div>
+<div [ngStyle]="{ 'background-color': person ? 'green' : 'black' }">
+  new Div
+</div>
+<div>
+  <h1>Date pipe</h1>
+  <p>{{ date | date: 'mm:dd:yyyy' }}</p>
+  <p>{{ personName | uppercase }}</p>
+  <p>{{ personName | lowercase }}</p>
+  <p>{{ 40 | currency: 'INR' }}</p>
+  <p>{{ 40.6 | squrt }}</p>
+</div>
