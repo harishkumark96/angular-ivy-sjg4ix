@@ -7,6 +7,7 @@ import { HelloComponent } from './hello.component';
 import { FirstDirectiveDirective } from './first-directive.directive';
 import { RendererDirective } from './renderer.directive';
 import { SqurtPipe } from './squrt.pipe';
+import { TemperaturePipe } from './temperature.pipe';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -16,6 +17,7 @@ import { SqurtPipe } from './squrt.pipe';
     FirstDirectiveDirective,
     RendererDirective,
     SqurtPipe,
+    TemperaturePipe,
   ],
   bootstrap: [AppComponent],
 })

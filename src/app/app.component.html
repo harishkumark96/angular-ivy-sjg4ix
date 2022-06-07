@@ -26,3 +26,17 @@
   <p>{{ 40 | currency: 'INR' }}</p>
   <p>{{ 40.6 | squrt }}</p>
 </div>
+<div>
+  <p>
+    Farhen:
+    <input type="text" [(ngModel)]="faren" />
+    celcius: {{ faren | temperature: 'c':'d' }}
+  </p>
+</div>
+<div>
+  <p>
+    celcius
+    <input type="text" [(ngModel)]="celcius" />
+    farhen:{{ celcius | temperature: 'f':'d' }}
+  </p>
+</div>
